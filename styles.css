@@ -213,3 +213,9 @@ span {
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+/* White-space */
+.white-space-pre {
+	outline: 1px solid black;
+	width: 350px;
+	white-space: pre;
+}
