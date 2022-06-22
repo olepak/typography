@@ -216,6 +216,11 @@ span {
 /* White-space */
 .white-space-pre {
 	outline: 1px solid black;
-	width: 350px;
-	white-space: pre;
+	width: 550px;
+	white-space: pre-line;
+	hyphens: auto;
+}
+.white-space-pre::after {
+	content: "Killing \A Me \A Softly";
+	outline: 1px solid black;
 }
