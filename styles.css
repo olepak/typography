@@ -214,13 +214,20 @@ span {
 	text-overflow: ellipsis;
 }
 /* White-space */
-.white-space-pre {
+.white-space {
 	outline: 1px solid black;
 	width: 550px;
-	white-space: pre-line;
-	hyphens: auto;
+	white-space: normal;
 }
-.white-space-pre::after {
-	content: "Killing \A Me \A Softly";
-	outline: 1px solid black;
+.examples p.white-space:nth-child(2) {
+	white-space: nowrap;
+}
+.examples p.white-space:nth-child(3) {
+	white-space: pre;
+}
+.examples p.white-space:nth-child(4) {
+	white-space: pre-wrap;
+}
+.examples p.white-space:nth-child(5) {
+	white-space: pre-line;
 }
