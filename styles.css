@@ -24,21 +24,29 @@ body {
 h1 {
 	margin-bottom: 10px;
 }
+ul {
+	list-style-position: inside;
+}
 li {
 	margin-bottom: 40px;
-	padding: 20px;
+	padding: 10px;
 }
 p {
 	margin-bottom: 10px;
 }
+
 li > p {
 	font-weight: 900;
+	display: inline-block;
+	position: relative;
+	left: -10px;
 }
+
 span {
 	color: blue;
 }
 .examples {
-	padding-left: 20px;
+	padding-left: 30px;
 }
 .frame {
 	outline: 1px solid black;
@@ -230,4 +238,18 @@ span {
 }
 .examples p.white-space:nth-child(5) {
 	white-space: pre-line;
+}
+.examples p.white-space:nth-child(5) {
+	white-space: break-spaces;
+}
+/* Word-break */
+.word-break {
+	outline: 1px solid black;
+	word-break: normal;
+}
+.examples p.word-break:nth-child(2) {
+	word-break: break-all;
+}
+.examples p.word-break:nth-child(3) {
+	word-break: keep-all;
 }
