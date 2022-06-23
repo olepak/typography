@@ -45,7 +45,7 @@ li > p {
 span {
 	color: blue;
 }
-.examples {
+.ex {
 	padding-left: 30px;
 }
 .frame {
@@ -153,16 +153,16 @@ span {
 	hyphens: auto;
 }
 /* Text-align-last */
-.examples p.text-align-last:nth-child(1) {
+.ex p.text-align-last:nth-child(1) {
 	text-align-last: start;
 }
-.examples p.text-align-last:nth-child(2) {
+.ex p.text-align-last:nth-child(2) {
 	text-align-last: center;
 }
-.examples p.text-align-last:nth-child(3) {
+.ex p.text-align-last:nth-child(3) {
 	text-align-last: right;
 }
-.examples p.text-align-last:nth-child(4) {
+.ex p.text-align-last:nth-child(4) {
 	text-align-last: justify;
 }
 /* Text-indent */
@@ -207,10 +207,10 @@ span {
 	font-family: League;
 	font-stretch: ultra-condensed;
 }
-.examples p.stretch:nth-child(2) {
+.ex p.stretch:nth-child(2) {
 	font-stretch: normal;
 }
-.examples p.stretch:nth-child(3) {
+.ex p.stretch:nth-child(3) {
 	font-stretch: ultra-expanded;
 }
 /* Text-overflow */
@@ -227,19 +227,19 @@ span {
 	width: 550px;
 	white-space: normal;
 }
-.examples p.white-space:nth-child(2) {
+.ex p.white-space:nth-child(2) {
 	white-space: nowrap;
 }
-.examples p.white-space:nth-child(3) {
+.ex p.white-space:nth-child(3) {
 	white-space: pre;
 }
-.examples p.white-space:nth-child(4) {
+.ex p.white-space:nth-child(4) {
 	white-space: pre-wrap;
 }
-.examples p.white-space:nth-child(5) {
+.ex p.white-space:nth-child(5) {
 	white-space: pre-line;
 }
-.examples p.white-space:nth-child(5) {
+.ex p.white-space:nth-child(5) {
 	white-space: break-spaces;
 }
 /* Word-break */
@@ -247,9 +247,16 @@ span {
 	outline: 1px solid black;
 	word-break: normal;
 }
-.examples p.word-break:nth-child(2) {
+.ex p.word-break:nth-child(2) {
 	word-break: break-all;
 }
-.examples p.word-break:nth-child(3) {
+.ex p.word-break:nth-child(3) {
 	word-break: keep-all;
+}
+/* Direction */
+.direction {
+	direction: ltr;
+}
+.ex p.direction:nth-child(2) {
+	direction: rtl;
 }
