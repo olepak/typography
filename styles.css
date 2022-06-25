@@ -8,6 +8,9 @@
 	font-style: normal;
 	font-stretch: 1% 500%;
 }
+:root {
+	--list-item-color: #005ca5;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -31,9 +34,6 @@ li {
 	margin-bottom: 40px;
 	padding: 10px;
 }
-p {
-	margin-bottom: 10px;
-}
 
 li > p {
 	font-weight: 900;
@@ -41,9 +41,15 @@ li > p {
 	position: relative;
 	left: -10px;
 }
+li::marker {
+	color: var(--list-item-color);
+}
+p {
+	margin-bottom: 10px;
+}
 a,
 a:visited {
-	color: #005ca5;
+	color: var(--list-item-color);
 }
 
 span {
@@ -51,6 +57,13 @@ span {
 }
 .ex {
 	padding-left: 30px;
+}
+.ex-flex {
+	padding-left: 30px;
+	display: flex;
+}
+.ex-flex p {
+	margin-left: 20px;
 }
 .frame {
 	outline: 1px solid black;
@@ -279,11 +292,11 @@ span {
 	writing-mode: vertical-rl;
 	text-orientation: mixed;
 }
-.ex p.text-orientation:nth-child(2) {
+.ex-flex p.text-orientation:nth-child(2) {
 	writing-mode: vertical-rl;
 	text-orientation: upright;
 }
-.ex p.text-orientation:nth-child(3) {
+.ex-flex p.text-orientation:nth-child(3) {
 	writing-mode: vertical-rl;
 	text-orientation: sideways-right;
 }
