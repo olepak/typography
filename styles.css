@@ -259,8 +259,24 @@ span {
 .ex p.white-space:nth-child(5) {
 	white-space: break-spaces;
 }
+.overflow-wrap {
+	overflow-wrap: normal;
+	width: 290px;
+	outline: 1px solid black;
+}
+.ex p.overflow-wrap:nth-child(2) {
+	overflow-wrap: anywhere;
+	width: 290px;
+	outline: 1px solid black;
+}
+.ex p.overflow-wrap:nth-child(3) {
+	overflow-wrap: break-word;
+	width: 290px;
+	outline: 1px solid black;
+}
 /* Word-break */
 .word-break {
+	width: 290px;
 	outline: 1px solid black;
 	word-break: normal;
 }
