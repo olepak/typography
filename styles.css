@@ -41,6 +41,10 @@ li > p {
 	position: relative;
 	left: -10px;
 }
+a,
+a:visited {
+	color: #005ca5;
+}
 
 span {
 	color: blue;
@@ -259,4 +263,27 @@ span {
 }
 .ex p.direction:nth-child(2) {
 	direction: rtl;
+}
+/* Writing mode */
+.writing-mode {
+	writing-mode: horizontal-tb;
+}
+.ex p.writing-mode:nth-child(2) {
+	writing-mode: vertical-lr;
+}
+.ex p.writing-mode:nth-child(3) {
+	writing-mode: vertical-rl;
+}
+/* Text orientation */
+.text-orientation {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+.ex p.text-orientation:nth-child(2) {
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+.ex p.text-orientation:nth-child(3) {
+	writing-mode: vertical-rl;
+	text-orientation: sideways-right;
 }
