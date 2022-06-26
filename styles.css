@@ -59,8 +59,10 @@ span {
 	padding-left: 30px;
 }
 .ex-flex {
-	padding-left: 30px;
+	padding-left: 20px;
+	padding-top: 20px;
 	display: flex;
+	height: 400px;
 }
 .ex-flex p {
 	margin-left: 20px;
@@ -307,6 +309,7 @@ span {
 .text-orientation {
 	writing-mode: vertical-rl;
 	text-orientation: mixed;
+	height: fit-content;
 }
 .ex-flex p.text-orientation:nth-child(2) {
 	writing-mode: vertical-rl;
@@ -315,4 +318,51 @@ span {
 .ex-flex p.text-orientation:nth-child(3) {
 	writing-mode: vertical-rl;
 	text-orientation: sideways-right;
+}
+/* List-style-type */
+.ex li {
+	margin-bottom: 10px;
+	padding: 5px;
+}
+.disc {
+	list-style-type: disc;
+}
+.circle {
+	list-style-type: circle;
+}
+.square {
+	list-style-type: square;
+}
+.none {
+	list-style-type: none;
+}
+.decimal {
+	list-style-type: decimal;
+}
+.georgian {
+	list-style-type: georgian;
+}
+.trad-chin {
+	list-style-type: trad-chinese-informal;
+}
+.kannada {
+	list-style-type: kannada;
+}
+.upper-roman {
+	list-style-type: upper-roman;
+}
+.string {
+	list-style-type: "\1F970";
+}
+/* List-style-position */
+.li-inside {
+	list-style-position: inside;
+}
+.li-outside {
+	list-style-position: outside;
+}
+li.li-inside,
+li.li-outside {
+	outline: 1px solid black;
+	background-color: rgba(0, 100, 0, 0.1);
 }
