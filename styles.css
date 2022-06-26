@@ -366,3 +366,7 @@ li.li-outside {
 	outline: 1px solid black;
 	background-color: rgba(0, 100, 0, 0.1);
 }
+/* List-style-image */
+.star {
+	list-style-image: url(/1-red-star-png-image-thumb.png);
+}
