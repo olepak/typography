@@ -55,6 +55,9 @@ a:visited {
 span {
 	color: blue;
 }
+.overview li {
+	margin-bottom: 0;
+}
 .ex {
 	padding-left: 30px;
 }
