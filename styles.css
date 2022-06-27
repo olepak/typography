@@ -370,3 +370,14 @@ li.li-outside {
 .star {
 	list-style-image: url(1-red-star-png-image-thumb.png);
 }
+/* Custom bullet image */
+.ex ul.custom-image {
+	list-style-type: none;
+}
+.custom-image li {
+	padding-left: 30px;
+	background-image: url(leaf.png);
+	background-position: 0 10px;
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
