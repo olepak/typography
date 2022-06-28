@@ -370,6 +370,7 @@ li.li-outside {
 	background-color: rgba(0, 100, 0, 0.1);
 }
 /* List-style-image */
+
 .star {
 	list-style-image: url(1-red-star-png-image-thumb.png);
 }
@@ -383,4 +384,12 @@ li.li-outside {
 	background-position: 0 10px;
 	background-repeat: no-repeat;
 	background-size: 20px;
+}
+/* Link-icons */
+.icon a {
+	background-image: url(external-link-52.png);
+	background-position: 100% 5px;
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	padding-right: 19px;
 }

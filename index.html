@@ -38,6 +38,7 @@
 			<li><a href="#list-style-image">List-style-image</a></li>
 			<li><a href="#custom-bullet-image">Custom bullet image</a></li>
 			<li><a href="#controlling-list-counting">Controlling list counting</a></li>
+			<li><a href="#link-icons">Including icons on list</a></li>
 		</ul>
 		<hr />
 		<ul>
@@ -446,24 +447,22 @@
 			<!-- List-style-type -->
 			<li>
 				<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type" target="_blank" id="list-style-type">List-style-type</a></p>
-				<div class="ex">
-					<ul class="list-style-type">
-						<li class="disc"><span>Disc</span></li>
-						<li class="circle">Circle</li>
-						<li class="square"><span>Square</span></li>
-						<li class="none"><span>None</span></li>
-						<li class="decimal"><span>Decimal</span></li>
-						<li class="georgian">
-							<span>Georgian</span>
-						</li>
-						<li class="trad-chin">
-							<span>trad-chinese-informal</span>
-						</li>
-						<li class="kannada"><span>Kannada</span></li>
-						<li class="upper-roman"><span>Upper-roman</span></li>
-						<li class="string"><span>String-value</span></li>
-					</ul>
-				</div>
+				<ul class="ex list-style-type">
+					<li class="disc"><span>Disc</span></li>
+					<li class="circle">Circle</li>
+					<li class="square"><span>Square</span></li>
+					<li class="none"><span>None</span></li>
+					<li class="decimal"><span>Decimal</span></li>
+					<li class="georgian">
+						<span>Georgian</span>
+					</li>
+					<li class="trad-chin">
+						<span>trad-chinese-informal</span>
+					</li>
+					<li class="kannada"><span>Kannada</span></li>
+					<li class="upper-roman"><span>Upper-roman</span></li>
+					<li class="string"><span>String-value</span></li>
+				</ul>
 			</li>
 			<!-- List-style-position -->
 			<li>
@@ -502,26 +501,36 @@
 				<p>
 					<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists#controlling_list_counting" target="_blank" id="controlling-list-counting">Controlling list counting</a>
 				</p>
+				<div class="ex">
+					<p><span>Start</span> attribute = 4</p>
+					<ol start="4">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ol>
+					<p><span>Start</span> attribute = 4 <span>reversed</span></p>
+					<ol start="4" reversed>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ol>
+				</div>
 			</li>
-			<div class="ex">
-				<p><span>Start</span> attribute = 4</p>
-				<ol start="4">
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ol>
-				<p><span>Start</span> attribute = 4 <span>reversed</span></p>
-				<ol start="4" reversed>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ol>
-			</div>
+			<!-- Link icons -->
+			<li>
+				<p><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links#including_icons_on_links" target="_blank" id="link-icons">Including icons on links</a></p>
+				<div class="ex">
+					<p class="icon">
+						For more information on the weather, visit our <a href="#">weather page</a>, look at <a href="https://en.wikipedia.org/" target="_blank">weather on Wikipedia</a>, or check out
+						<a href="https://www.nationalgeographic.org/topics/resource-library-weather/" target="_blank">weather on National Geographic</a>.
+					</p>
+				</div>
+			</li>
 		</ul>
 	</body>
 </html>
