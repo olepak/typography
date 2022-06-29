@@ -22,7 +22,7 @@ body {
 	margin: auto;
 	font-family: "Merriweather", serif;
 	font-size: 20px;
-	margin-bottom: 1500px;
+	margin-bottom: 1150px;
 }
 h1 {
 	margin-bottom: 10px;
@@ -34,7 +34,6 @@ li {
 	margin-bottom: 40px;
 	padding: 10px;
 }
-
 li > p {
 	font-weight: 900;
 	display: inline-block;
@@ -51,7 +50,6 @@ a,
 a:visited {
 	color: var(--list-item-color);
 }
-
 span {
 	color: blue;
 }
