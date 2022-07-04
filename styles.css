@@ -146,6 +146,13 @@ span {
 .dec-thickness {
 	text-decoration: underline 5px;
 }
+.skip-ink {
+	text-decoration: underline;
+	outline: 1px solid black;
+}
+.skip-ink p:first-child {
+	text-decoration-skip-ink: none;
+}
 /* Text-shadow */
 .text-shadow {
 	text-shadow: 2px 2px 2px black;
